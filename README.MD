@@ -45,13 +45,15 @@ description is found in the table below
 # License
 
 Only the occupancy dataset is distributed under the CC-BY-NC-SA License. If using or 
-distributing the data, please cite the following paper (currently under review):
+distributing the data, please cite the following paper (preprint):
 
 ```
-@article{Wietzke2024,
-  author   = {Wietzke, Thore and Gall, Jan and Graichen, Knut},
-  title    = {Occupancy Prediction for Building Energy Systems with Latent Force Models},
-  journal  = {Energy and Buildings},
-  year     = {2024},
+@misc{wietzke2024occupancy,
+      title={Occupancy Prediction for Building Energy Systems with Latent Force Models}, 
+      author={Thore Wietzke and Jan Gall and Knut Graichen},
+      year={2024},
+      eprint={2401.05074},
+      archivePrefix={arXiv},
+      primaryClass={eess.SY}
 }
 ```
