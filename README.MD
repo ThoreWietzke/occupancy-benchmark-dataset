@@ -49,11 +49,15 @@ distributing the data, please cite the following paper (preprint):
 
 ```
 @misc{wietzke2024occupancy,
-      title={Occupancy Prediction for Building Energy Systems with Latent Force Models}, 
-      author={Thore Wietzke and Jan Gall and Knut Graichen},
-      year={2024},
-      eprint={2401.05074},
-      archivePrefix={arXiv},
-      primaryClass={eess.SY}
+    title = {Occupancy prediction for building energy systems with latent force models},
+    journal = {Energy and Buildings},
+    volume = {307},
+    pages = {113968},
+    year = {2024},
+    issn = {0378-7788},
+    doi = {https://doi.org/10.1016/j.enbuild.2024.113968},
+    url = {https://www.sciencedirect.com/science/article/pii/S0378778824000847},
+    author = {Thore Wietzke and Jan Gall and Knut Graichen},
+    abstract = {This paper presents a new approach to predict the occupancy for building energy systems (BES). A Gaussian Process (GP) is used to model the occupancy and is represented as a state space model that is equivalent to the full GP if Kalman filtering and smoothing is used. The combination of GPs and mechanistic models is called Latent Force Model (LFM). An LFM-based model predictive control (MPC) concept for BES is presented that benefits from the extrapolation capability of mechanistic models and the learning ability of GPs to predict the occupancy within the building. Simulations with EnergyPlus and a comparison with real-world data from the Bosch Research Campus in Renningen show that a reduced energy demand and thermal discomfort can be obtained with the LFM-based MPC scheme by accounting for the predicted stochastic occupancy.}
 }
 ```
